@@ -1,2 +1,2 @@
 # RestaurantProject
-Uzbek traditional Resturant Website
+Uzbek traditional Restaurant Website
