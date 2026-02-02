@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shafran.pl</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <h1 
+          class="lang"
+          data-lang-pl="SZAFRAN"
+          data-lang-uz="SHAFRAN"
+          data-lang-ru="ШАФРАН"
+          data-lang-en="SHAFRAN"
+          >
+          SHAFRAN</h1>
+          <p
+            class="lang"
+            data-lang-pl="RESTAURACJA"
+            data-lang-uz="RESTORAN"
+            data-lang-ru="РЕСТОРАН"
+            data-lang-en="RESTAURANT"
+          >
+            RESTAURACJA
+          </p>
+        </div>
+
+        <div class="header-right">
+          <div class="language-dropdown">
+            <div class="selected-language">
+              <span id="current-language">PL</span>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul class="language-options">
+              <li data-lang="pl" class="active">Polski (PL)</li>
+              <li data-lang="uz">O'zbek (UZ)</li>
+              <li data-lang="ru">Русский (RU)</li>
+              <li data-lang="en">English (EN)</li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" id="hamburger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="main-nav" id="main-nav">
+          <ul>
+            <li>
+              <a
+                href="#home"
+                class="active lang"
+                data-lang-pl="Strona główna"
+                data-lang-uz="Bosh sahifa"
+                data-lang-ru="Главная"
+                data-lang-en="Home"
+                >Strona główna</a
+              >
+            </li>
+            <li>
+              <a
+                href="#menu"
+                class="lang"
+                data-lang-pl="Menu"
+                data-lang-uz="Menyu"
+                data-lang-ru="Меню"
+                data-lang-en="Menu"
+                >Menu</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="lang"
+                data-lang-pl="O nas"
+                data-lang-uz="Biz haqimizda"
+                data-lang-ru="О нас"
+                data-lang-en="About Us"
+                >O nas</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="lang"
+                data-lang-pl="Kontakt"
+                data-lang-uz="Aloqa"
+                data-lang-ru="Контакты"
+                data-lang-en="Contact"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h2
+          class="lang"
+          data-lang-pl="Tradycyjna Kuchnia"
+          data-lang-uz="An'anaviy Oshxona"
+          data-lang-ru="Традиционная Кухня"
+          data-lang-en="Traditional Cuisine"
+        >
+          Tradycyjna Kuchnia
+        </h2>
+        <p
+          class="lang"
+          data-lang-pl="Doświadcz autentycznych smaków i ciepłej gościnności"
+          data-lang-uz="Haqiqiy ta'mlar va iliq mehmondo'stlikni his eting"
+          data-lang-ru="Ощутите подлинные вкусы и теплое гостеприимство"
+          data-lang-en="Experience authentic flavors and warm hospitality"
+        >
+          Doświadcz autentycznych smaków i ciepłej gościnności
+        </p>
+        <a
+          href="#menu"
+          class="btn-primary lang"
+          data-lang-pl="Zobacz nasze menu"
+          data-lang-uz="Menyuni ko'rish"
+          data-lang-ru="Посмотреть меню"
+          data-lang-en="View Our Menu"
+          >Zobacz nasze menu</a
+        >
+        <img src="halal" alt="" style="align-items: center; justify-content: end;">
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-header">
+          <h2
+            class="lang"
+            data-lang-pl="Nasze Menu"
+            data-lang-uz="Bizning Menyu"
+            data-lang-ru="Наше Меню"
+            data-lang-en="Our Menu"
+          >
+            Nasze Menu
+          </h2>
+         
+        </div>
+
+        <!-- Menu Navigation -->
+        <!-- Menu Navigation -->
+<nav class="menu-nav">
+  <div class="nav-container">
+    <button class="nav-item active" data-target="soups">
+      <span
+        class="lang"
+        data-lang-pl="Zupy"
+        data-lang-uz="Sho'rvalar"
+        data-lang-ru="Супы"
+        data-lang-en="Soups"
+        >Zupy</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Soups"
+        data-lang-uz="Супы"
+        data-lang-ru="Soups"
+        data-lang-en="Zupy"
+        >Soups</span
+      >
+    </button>
+    <button class="nav-item" data-target="sets">
+      <span
+        class="lang"
+        data-lang-pl="Zestaw"
+        data-lang-uz="To'plamlar"
+        data-lang-ru="Наборы"
+        data-lang-en="Sets"
+        >Zestaw</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Sets"
+        data-lang-uz="Наборы"
+        data-lang-ru="Sets"
+        data-lang-en="Zestaw"
+        >Sets</span
+      >
+    </button>
+    <button class="nav-item" data-target="main">
+      <span
+        class="lang"
+        data-lang-pl="Danie Główne"
+        data-lang-uz="Asosiy Taomlar"
+        data-lang-ru="Основные Блюда"
+        data-lang-en="Main Dishes"
+        >Danie Główne</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Main"
+        data-lang-uz="Основные"
+        data-lang-ru="Main"
+        data-lang-en="Główne"
+        >Main</span
+      >
+    </button>
+    <button class="nav-item" data-target="grill">
+      <span
+        class="lang"
+        data-lang-pl="Grill"
+        data-lang-uz="Gril"
+        data-lang-ru="Гриль"
+        data-lang-en="Grill"
+        >Grill</span
+      >
+    </button>
+    <button class="nav-item" data-target="salads">
+      <span
+        class="lang"
+        data-lang-pl="Sałatki"
+        data-lang-uz="Salatlar"
+        data-lang-ru="Салаты"
+        data-lang-en="Salads"
+        >Sałatki</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Salads"
+        data-lang-uz="Салаты"
+        data-lang-ru="Salads"
+        data-lang-en="Sałatki"
+        >Salads</span
+      >
+    </button>
+    <button class="nav-item" data-target="breakfast">
+      <span
+        class="lang"
+        data-lang-pl="Śniadanie"
+        data-lang-uz="Nonushta"
+        data-lang-ru="Завтрак"
+        data-lang-en="Breakfast"
+        >Śniadanie</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Breakfast"
+        data-lang-uz="Завтрак"
+        data-lang-ru="Breakfast"
+        data-lang-en="Śniadanie"
+        >Breakfast</span
+      >
+    </button>
+    <button class="nav-item" data-target="bakery">
+      <span
+        class="lang"
+        data-lang-pl="Piekarnia"
+        data-lang-uz="Non"
+        data-lang-ru="Выпечка"
+        data-lang-en="Bakery"
+        >Piekarnia</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Bakery"
+        data-lang-uz="Выпечка"
+        data-lang-ru="Bakery"
+        data-lang-en="Piekarnia"
+        >Bakery</span
+      >
+    </button>
+    <button class="nav-item" data-target="desserts">
+      <span
+        class="lang"
+        data-lang-pl="Desery"
+        data-lang-uz="Shirinliklar"
+        data-lang-ru="Десерты"
+        data-lang-en="Desserts"
+        >Desery</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Desserts"
+        data-lang-uz="Десерты"
+        data-lang-ru="Desserts"
+        data-lang-en="Desery"
+        >Desserts</span
+      >
+    </button>
+    <button class="nav-item" data-target="drinks">
+      <span
+        class="lang"
+        data-lang-pl="Kawa"
+        data-lang-uz="Qahva"
+        data-lang-ru="Кофе"
+        data-lang-en="Coffee"
+        >Kawa</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Coffee"
+        data-lang-uz="Кофе"
+        data-lang-ru="Coffee"
+        data-lang-en="Kawa"
+        >Coffee</span
+      >
+    </button>
+    <button class="nav-item" data-target="lemonades">
+      <span
+        class="lang"
+        data-lang-pl="Lemoniady"
+        data-lang-uz="Limonadlar"
+        data-lang-ru="Лимонады"
+        data-lang-en="Lemonades"
+        >Lemoniady</span
+      >
+    </button>
+    <button class="nav-item" data-target="cocktails">
+      <span
+        class="lang"
+        data-lang-pl="Koktajle"
+        data-lang-uz="Kokteyllar"
+        data-lang-ru="Коктейли"
+        data-lang-en="Cocktails"
+        >Koktajle</span
+      >
+    </button>
+    <button class="nav-item" data-target="beverages">
+      <span
+        class="lang"
+        data-lang-pl="Napoje"
+        data-lang-uz="Ichimliklar"
+        data-lang-ru="Напитки"
+        data-lang-en="Drinks"
+        >Napoje</span
+      >
+    </button>
+    <button class="nav-item" data-target="sides">
+      <span
+        class="lang"
+        data-lang-pl="Dodatki"
+        data-lang-uz="Qo'shimchalar"
+        data-lang-ru="Гарниры"
+        data-lang-en="Sides"
+        >Dodatki</span
+      >
+      <span
+        class="lang-secondary"
+        data-lang-pl="Sides"
+        data-lang-uz="Гарниры"
+        data-lang-ru="Sides"
+        data-lang-en="Dodatki"
+        >Sides</span
+      >
+    </button>
+  </div>
+</nav>
+<!-- Menu Content -->
+<div class="menu-content">
+  <!-- Soups Section -->
+  <div id="soups" class="menu-category active">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Zupy" data-lang-uz="Sho'rva" data-lang-ru="Супы" data-lang-en="Soups">Zupy</span>
+      <span>/ <span class="lang" data-lang-pl="Soups" data-lang-ru="Супы" data-lang-en="Soups">Soups</span></span>
+    </h3>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Shorpa" data-lang-uz="Sho'rpa" data-lang-ru="Шурпа" data-lang-en="Shorpa">Shorpa</h4>
+        <span class="price">25 zł</span>
+      </div>
+      <p class="description lang" 
+         data-lang-pl="(Tradycyjna zupa z cielęciny i warzywami)" 
+         data-lang-uz="(Go'sht va sabzavotlar bilan tayyorlangan an'anaviy sho'rva)" 
+         data-lang-ru="(Традиционный суп из телятины и овощей)" 
+         data-lang-en="(Traditional soup with veal and vegetables)">
+        (Tradycyjna zupa z cielęciny i warzywami)
+      </p>
+      <img src="imges/shorba.jpg" alt="Shorpa" style="height: 170px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Shorpo z Kurczakiem" data-lang-uz="Tovuq Sho'rva" data-lang-ru="Шурпа с курицей" data-lang-en="Chicken Shorpa">Shorpo z Kurczakiem</h4>
+        <span class="price">22 zł</span>
+      </div>
+      <img src="imges/Chicken Shorba.jpg" alt="Shorpa" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Mastava" data-lang-uz="Mastava" data-lang-ru="Мастава" data-lang-en="Mastava">Mastava</h4>
+        <span class="price">24 zł</span>
+      </div>
+      <p class="description lang" 
+         data-lang-pl="(zupa z ryżem i warzywami)" 
+         data-lang-uz="(guruch va sabzavotlar bilan sho'rva)" 
+         data-lang-ru="(суп с рисом и овощами)" 
+         data-lang-en="(soup with rice and vegetables)">
+        (zupa z ryżem i warzywami)
+      </p>
+      <img src="imges/mastava1.jpeg" alt="mastava" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Chuchvara" data-lang-uz="Chuchvara" data-lang-ru="Чучвара" data-lang-en="Chuchvara">Chuchvara</h4>
+        <span class="price">24 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(zupa z pierożkami mięsnymi.)"
+         data-lang-uz="(go'shtli chuchvara sho'rva.)"
+         data-lang-ru="(суп с мясными пельменями.)"
+         data-lang-en="(soup with meat dumplings.)">
+        (zupa z pierożkami mięsnymi.)
+      </p>
+      <img src="imges/chuchvaraa.jpeg" alt="chuchvara" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Uygur Lagman" data-lang-uz="Uyg'ur Lag'moni" data-lang-ru="Уйгурский Лагман" data-lang-en="Uyghur Lagman">Uygur Lagman</h4>
+        <span class="price">27 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(zupa z tradycyjnym domowym makaronem,podawany z ostrym sosem)"
+         data-lang-uz="(an'anaviy uy makaron bilan sho'rva, achchiq sous bilan beriladi)"
+         data-lang-ru="(суп с традиционной домашней лапшой, подается с острым соусом)"
+         data-lang-en="(soup with traditional homemade noodles, served with spicy sauce)">
+        (zupa z tradycyjnym domowym makaronem,podawany z ostrym sosem)
+      </p>
+      <img src="imges/uygurLagman.jpeg" alt="uygurLagman" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Mashkhurda" data-lang-uz="Mashhurda" data-lang-ru="Машхурда" data-lang-en="Mashkhurda">Mashkhurda</h4>
+        <span class="price">24 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(zupa z fasola mung.)"
+         data-lang-uz="(mosh sho'rva.)"
+         data-lang-ru="(суп с фасолью мунг.)"
+         data-lang-en="(soup with mung beans.)">
+        (zupa z fasola mung.)
+      </p>
+      <img src="imges/moshkhurda.jpeg" alt="moshkhurda" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Zupa z Dolma" data-lang-uz="Dolma Sho'rva" data-lang-ru="Суп с Долмой" data-lang-en="Dolma Soup">Zupa z Dolma</h4>
+        <span class="price">28 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Golabki w lisciach winogron podawana.)"
+         data-lang-uz="(Uzum bargida o'ralgan go'sht.)"
+         data-lang-ru="(Голубцы в виноградных листьях.)"
+         data-lang-en="(Cabbage rolls in grape leaves served.)">
+        (Golabki w lisciach winogron podawana.)
+      </p>
+      <img src="imges/dolma.jpeg" alt="dolma" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Zupa z Klopsikami" data-lang-uz="Go'shtli Sho'rva" data-lang-ru="Суп с Фрикадельками" data-lang-en="Meatball Soup">Zupa z Klopsikami</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <img src="imges/meatBallSoup.jpeg" alt="Meatball" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Barszcz" data-lang-uz="Borsh" data-lang-ru="Борщ" data-lang-en="Borscht">Borszcz</h4>
+        <span class="price">25 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Barszcz ukraiński podawany z śmietaną)"
+         data-lang-uz="(Ukraina borsh smetana bilan beriladi)"
+         data-lang-ru="(Украинский борщ подается со сметаной)"
+         data-lang-en="(Ukrainian borscht served with sour cream)">
+        (Barszcz ukraiński podawany z śmietaną)
+      </p>
+      <img src="imges/borszcz.jpeg" alt="Shorpa" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Zupa Jarzynowa" data-lang-uz="Sabzavotli Sho'rva" data-lang-ru="Овощной Суп" data-lang-en="Vegetable Soup">Zupa Jarzynowa</h4>
+        <span class="price">24 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(podawana z kremowa śmietanka i świeżymi ziolami)"
+         data-lang-uz="(qaymoqli smetana va yangi o'tlar bilan beriladi)"
+         data-lang-ru="(подается со сливочной сметаной и свежими травами)"
+         data-lang-en="(served with creamy sour cream and fresh herbs)">
+        (podawana z kremowa śmietanka i świeżymi ziolami)
+      </p>
+      <img src="imges/vegatableSoup.jpeg" alt="Shorpa" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Zupa z soczewicy" data-lang-uz="Chechivisi Shorpa" data-lang-ru="Суп из чечевицы" data-lang-en="Lentil soup">Shorpo z Kurczakiem</h4>
+        <span class="price">25 zł</span>
+      </div>
+      <img src="imges/chechivisi.jpg" alt="Shorpa" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Grill Section -->
+  <div id="grill" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Grill" data-lang-uz="Gril" data-lang-ru="Гриль" data-lang-en="Grill">Grill</span>
+    </h3>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Szaszłyk Wołowy" data-lang-uz="Mol go'shtli Shashlik" data-lang-ru="Шашлык из Говядины" data-lang-en="Beef Shashlik">Szaszłyk Wołowy</h4>
+        <span class="price">27 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Szaszlyk Baranina" data-lang-uz="Qo'y go'shtli Shashlik" data-lang-ru="Шашлык из Баранины" data-lang-en="Lamb Shashlik">Szaszlyk Baranina</h4>
+        <span class="price">29 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Lula Kebab" data-lang-uz="Lyulya Kabob" data-lang-ru="Люля Кебаб" data-lang-en="Lyulya Kebab">Lula Kebab</h4>
+        <span class="price">25 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Filet z Kurczaka" data-lang-uz="Tovuq Fileti" data-lang-ru="Куриное Филе" data-lang-en="Chicken Fillet">Filet z Kurczaka</h4>
+        <span class="price">27 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Skrzydełka z Kurczaka" data-lang-uz="Tovuq Qanotlari" data-lang-ru="Куриные Крылышки" data-lang-en="Chicken Wings">Skrzydełka z Kurczaka</h4>
+        <span class="price">25 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Grillowany Kurczak" data-lang-uz="Grilda pishirilgan Tovuq" data-lang-ru="Курица-гриль" data-lang-en="Grilled Chicken">Grillowany Kurczak</h4>
+        <span class="price">45 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Poledwica Baranina" data-lang-uz="Qo'y Go'shti Fileti" data-lang-ru="Баранья Вырезка" data-lang-en="Lamb Fillet">Poledwica Baranina</h4>
+        <span class="price">55 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(comber jagniecy)"
+         data-lang-uz="(qo'y sonidan kesib olingan go'sht)"
+         data-lang-ru="(каре ягненка)"
+         data-lang-en="(lamb saddle)">
+        (comber jagniecy)
+      </p>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Grillowany Warzywa" data-lang-uz="Grilda pishirilgan Sabzavotlar" data-lang-ru="Овощи-гриль" data-lang-en="Grilled Vegetables">Grillowany Warzywa</h4>
+        <span class="price">30 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Czarny bakłażan, cukinia, warzywa, papryka (czerwona, żółta, zielona), czerwona cebula, sos pomidorowy)"
+         data-lang-uz="(Qora baqlajon, qovoq, sabzavotlar, qalampir (qizil, sariq, yashil), qizil piyoz, pomidor sousi)"
+         data-lang-ru="(Черный баклажан, кабачок, овощи, перец (красный, желтый, зеленый), красный лук, томатный соус)"
+         data-lang-en="(Black eggplant, zucchini, vegetables, pepper (red, yellow, green), red onion, tomato sauce)">
+        (Czarny bakłażan, cukinia, warzywa, papryka (czerwona, żółta, zielona), czerwona cebula, sos pomidorowy)
+      </p>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Baklazan Kebab" data-lang-uz="Baqlajon Kabob" data-lang-ru="Баклажанный Кебаб" data-lang-en="Eggplant Kebab">Baklazan Kebab</h4>
+        <span class="price">25 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Mix Szaszlyk" data-lang-uz="Aralash Shashlik" data-lang-ru="Микс Шашлык" data-lang-en="Mix Shashlik">Mix Szaszlyk</h4>
+        <span class="price">250 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Baranina, wołowina, skrzydełka z kurczaka, filet z kurczaka, pomidor, ogórek, cebula, warzywa.)"
+         data-lang-uz="(Qo'y go'shti, mol go'shti, tovuq qanotlari, tovuq fileti, pomidor, bodring, piyoz, sabzavotlar.)"
+         data-lang-ru="(Баранина, говядина, куриные крылышки, куриное филе, помидор, огурец, лук, овощи.)"
+         data-lang-en="(Lamb, beef, chicken wings, chicken fillet, tomato, cucumber, onion, vegetables.)">
+        (Baranina,  beef, chicken wings, chicken fillet, tomato, cucumber, onion, vegetables.)">
+        (Baranina, wołowina, skrzydełka z kurczaka, filet z kurczaka, pomidor, ogórek, cebula, warzywa.)
+      </p>
+      <img src="imges/meatSet.jpg" alt="meatSet" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Main Dishes Section -->
+  <div id="main" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Danie Główne" data-lang-uz="Asosiy Taomlar" data-lang-ru="Основные Блюда" data-lang-en="Main Dishes">Danie Główne</span>
+      <span>/ <span class="lang" data-lang-pl="Main Dishes"  data-lang-ru="Основные Блюда" data-lang-en="Main Dishes">Main Dishes</span></span>
+    </h3>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Uzbecki Pilaw (450 g)" data-lang-uz="O'zbek Palov (450 g)" data-lang-ru="Узбекский Плов (450 г)" data-lang-en="Uzbek Pilaf (450 g)">Uzbecki Pilaw (450 g)</h4>
+        <span class="price">30 zł</span>
+      </div>
+      <p class="description lang" 
+         data-lang-pl="(Tradycyjne danie z cielęcina, ryżu, marchewki i przypraw, podawane z jajkiem przepiórczym)" 
+         data-lang-uz="(Buzoq go'shti, guruch, sabzi va ziravorlar bilan tayyorlangan an'anaviy taom, bedana tuxumi bilan)" 
+         data-lang-ru="(Традиционное блюдо из телятины, риса, моркови и специй, подается с перепелиным яйцом)" 
+         data-lang-en="(Traditional dish with veal, rice, carrots and spices, served with quail egg)">
+        (Tradycyjne danie z cielęcina, ryżu, marchewki i przypraw, podawane z jajkiem przepiórczym)
+      </p>
+      <img src="imges/osh.jpg" alt="dolma" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Kazan Kebab Wołowy" data-lang-uz="Kazan Kabob Mol go'shti" data-lang-ru="Казан Кебаб Говядина" data-lang-en="Kazan Kebab Beef">Kazan Kebab Wołowy</h4>
+      <span class="price">45 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Wołowina/Jagnięcina, Ziemniaki, Kolendra, Kminek, jajko, cebula, czarny pieprz, pomidor, ogórek, Koperek, Sułtanki.)"
+         data-lang-uz="(Mol go'shti/Qo'zichoq, Kartoshka, Koriander, Zira, tuxum, piyoz, qora murch, pomidor, bodring, Ukrop, Mayiz.)"
+         data-lang-ru="(Говядина/Ягненок, Картофель, Кориандр, Тмин, яйцо, лук, черный перец, помидор, огурец, Укроп, Изюм.)"
+         data-lang-en="(Beef/Lamb, Potatoes, Coriander, Cumin, egg, onion, black pepper, tomato, cucumber, Dill, Raisins.)">
+        (Wołowina/Jagnięcina, Ziemniaki, Kolendra, Kminek, jajko, cebula, czarny pieprz, pomidor, ogórek, Koperek, Sułtanki.)
+      </p>
+      <img src="imges/kazanKebab.jpg" alt="dolma" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Kazan Kebab Baranina" data-lang-uz="Kazan Kabob Qo'zichoq" data-lang-ru="Казан Кебаб Баранина" data-lang-en="Kazan Kebab Lamb">Kazan Kebab Baranina</h4>
+        <span class="price">50 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Baranina/Jagnięcina, Ziemniaki, Kolendra, Kminek, jajko, cebula, czarny pieprz, pomidor, ogórek, Koperek, Sułtanki.)"
+         data-lang-uz="(Qo'zichoq/Qo'zichoq, Kartoshka, Koriander, Zira, tuxum, piyoz, qora murch, pomidor, bodring, Ukrop, Mayiz.)"
+         data-lang-ru="(Баранина/Ягненок, Картофель, Кориандр, Тмин, яйцо, лук, черный перец, помидор, огурец, Укроп, Изюм.)"
+         data-lang-en="(Lamb/Lamb, Potatoes, Coriander, Cumin, egg, onion, black pepper, tomato, cucumber, Dill, Raisins.)">
+        (Baranina/Jagnięcina, Ziemniaki, Kolendra, Kminek, jajko, cebula, czarny pieprz, pomidor, ogórek, Koperek, Sułtanki.)
+      </p>
+      <img src="imges/kazanBaranina.jpg" alt="kazanKebab" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Manty(5szt)" data-lang-uz="Manti(5 dona)" data-lang-ru="Манты(5 штук)" data-lang-en="Manty(5 pieces)">Manti</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="Na parze,podawany z domowym jogurtem,(Manty z mięsem)"
+         data-lang-uz="(Go'shtli Manti)"
+         data-lang-ru="(нежные узбекские пельмени на пару,(Манты с мясом)"
+         data-lang-en="(Manti with meat), steamed dumplings)">
+        (delikatne pierogi uzbecki na parze)
+      </p>
+      <img src="imges/manti.jpg" alt="manti" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Manty(5szt)" data-lang-uz="Manti(5 dona)" data-lang-ru="Манты(5 штук)" data-lang-en="Manty(5 pieces)">Manti</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="Na parze,podawany z domowym jogurtem,(Manty z dynią)"
+         data-lang-uz="(Qovoqli manti)"
+         data-lang-ru="(нежные узбекские Манты на пару,(Манты с тыквой)"
+         data-lang-en="(Manti with pumpkin),steamed dumplings)">
+        (delikatne pierogi uzbecki na parze)
+      </p>
+      <img src="imges/manti2.jpg" alt="manti" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Manty(5szt)" data-lang-uz="Manti(5 dona)" data-lang-ru="Манты(5 штук)" data-lang-en="Manty(5 pieces)">Manti</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="Na parze,podawany z domowym jogurtem,(Manty ze szpinakiem)"
+         data-lang-uz="(Ko'katli manti)"
+         data-lang-ru="(нежные узбекские Манты на пару,(Манты с зеленью)"
+         data-lang-en="(Manty with greens),steamed dumplings)">
+        (delikatne pierogi uzbecki na parze)
+      </p>
+      <img src="imges/manti.jpg" alt="manti" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Manty (1 szt)" data-lang-uz="Manti (1 dona)" data-lang-ru="Манты (1 шт)" data-lang-en="Manty (1 pc)">Manti (1 szt)</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/manti2.jpg" alt="manti" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Lagman Smazony" data-lang-uz="Qovurilgan Lag'mon" data-lang-ru="Жареный Лагман" data-lang-en="Fried Lagman">Lagman Smazony</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Wołowina, makaron,, kapusta, daikon, seler, fasola, papryka,ostry sos, jajko. ręczne robimy)"
+         data-lang-uz="(Mol go'shti, makaron, karam, daikon, selderey, loviya, qalampir, achchiq sous, tuxum. qo'lda tayyorlaymiz)"
+         data-lang-ru="(Говядина, лапша, капуста, дайкон, сельдерей, фасоль, перец, острый соус, яйцо. делаем вручную)"
+         data-lang-en="(Beef, noodles, cabbage, daikon, celery, beans, pepper, spicy sauce, egg. we make by hand)">
+        (Wołowina, makaron,, kapusta, daikon, seler, fasola, papryka,ostry sos, jajko. ręczne robimy)
+      </p>
+      <img src="imges/lagman.jpg" alt="Lagman" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Chuchvara Smazony" data-lang-uz="Qovurilgan Chuchvara" data-lang-ru="Жареная Чучвара" data-lang-en="Fried Chuchvara">Chuchvara Smazony</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Smazone pierogi.)"
+         data-lang-uz="(Qovurilgan chuchvara.)"
+         data-lang-ru="(Жареные пельмени.)"
+         data-lang-en="(Fried dumplings.)">
+        (Smazone pierogi.)
+      </p>
+      <img src="imges/qovurganChuchvara.jpeg" alt="qovurganChuchvara" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Kurczak Smażony" data-lang-uz="Qovurilgan Tovuq" data-lang-ru="Жареный Цыпленок" data-lang-en="Fried Chicken">Kurczak Smażony</h4>
+        <span class="price">37 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Mięso z Kurczaka, Czosnek, Kolendra, Siekana Cebula, Pieprz Czarny, Zieleń, Kminek, Sos Pomidorowy, Frytki, Papryka.)"
+         data-lang-uz="(Tovuq go'shti, Sarimsoq, Koriander, Mayda to'g'ralgan Piyoz, Qora Murch, Ko'katlar, Zira, Pomidor Sousi, Kartoshka Fri, Qalampir.)"
+         data-lang-ru="(Куриное мясо, Чеснок, Кориандр, Рубленый Лук, Черный Перец, Зелень, Тмин, Томатный Соус, Картофель Фри, Перец.)"
+         data-lang-en="(Chicken Meat, Garlic, Coriander, Chopped Onion, Black Pepper, Greens, Cumin, Tomato Sauce, French Fries, Pepper.)">
+        (Mięso z Kurczaka, Czosnek, Kolendra, Siekana Cebula, Pieprz Czarny, Zieleń, Kminek, Sos Pomidorowy, Frytki, Papryka.)
+      </p>
+      <img src="imges/" alt="frychicken" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Befstroganow" data-lang-uz="Befstroganov" data-lang-ru="Бефстроганов" data-lang-en="Beef Stroganoff">Befstroganow</h4>
+        <span class="price">37 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Mięso wołowe, Frytki, Ketchup/sos pomidorowy, Czarny pieprz, Zieleń.)"
+         data-lang-uz="(Mol go'shti, Kartoshka Fri, Ketchup/pomidor sousi, Qora murch, Ko'katlar.)"
+         data-lang-ru="(Говядина, Картофель Фри, Кетчуп/томатный соус, Черный перец, Зелень.)"
+         data-lang-en="(Beef, French Fries, Ketchup/tomato sauce, Black pepper, Greens.)">
+        (Mięso wołowe, Frytki, Ketchup/sos pomidorowy, Czarny pieprz, Zieleń.)
+      </p>
+      <img src="imges/bishteks.jpg" alt="Befstroganow" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Kotlet z Dodatkami" data-lang-uz="Qo'shimchalar bilan Kotlet" data-lang-ru="Котлета с Гарнирами" data-lang-en="Cutlet with Side Dishes">Kotlet z Dodatkami</h4>
+        <span class="price">37 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Różne mięsa, warzywa oraz inne składniki, w tym sery i przyprawy.)"
+         data-lang-uz="(Turli xil go'shtlar, sabzavotlar va boshqa ingredientlar, shu jumladan pishloqlar va ziravorlar.)"
+         data-lang-ru="(Различные виды мяса, овощи и другие ингредиенты, включая сыры и специи.)"
+         data-lang-en="(Various meats, vegetables and other ingredients, including cheeses and spices.)">
+        (Różne mięsa, warzywa oraz inne składniki, w tym sery i przyprawy.)
+      </p>
+      
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Gulasz" data-lang-uz="Gulyash" data-lang-ru="Гуляш" data-lang-en="Goulash">Gulasz</h4>
+        <span class="price">37 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Wołowina, ryż, kasza gryczana, puree ziemniaczane, sos pomidorowy, czarny pieprz, liść laurowy.)"
+         data-lang-uz="(Mol go'shti, guruch, grechka, kartoshka pyuresi, pomidor sousi, qora murch, dafna bargi.)"
+         data-lang-ru="(Говядина, рис, гречка, картофельное пюре, томатный соус, черный перец, лавровый лист.)"
+         data-lang-en="(Beef, rice, buckwheat, mashed potatoes, tomato sauce, black pepper, bay leaf.)">
+        (Wołowina, ryż, kasza gryczana, puree ziemniaczane, sos pomidorowy, czarny pieprz, liść laurowy.)
+      </p>
+      <img src="imges/gulash.jpeg" alt="gulash" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Roladki w liściach Winogron" data-lang-uz="Uzum bargidan Dolma" data-lang-ru="Голубцы из Виноградных Листьев" data-lang-en="Grape Leaf Rolls">Roladki w liściach Winogron</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Siekana wołowina, liście winogron, ryż, smażone ziemniaki, zielony, pomidor, ogórek, papryka.)"
+         data-lang-uz="(Mayda to'g'ralgan mol go'shti, uzum barglari, guruch, qovurilgan kartoshka, yashil, pomidor, bodring, qalampir.)"
+         data-lang-ru="(Рубленая говядина, виноградные листья, рис, жареный картофель, зеленый, помидор, огурец, перец.)"
+         data-lang-en="(Chopped beef, grape leaves, rice, fried potatoes, green, tomato, cucumber, pepper.)">
+        (Siekana wołowina, liście winogron, ryż, smażone ziemniaki, zielony, pomidor, ogórek, papryka.)
+      </p>
+      <img src="imges/dolma.jpg" alt="dolma" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Klopsiki z Ryżem" data-lang-uz="Guruch bilan Go'shtli Kotletlar" data-lang-ru="Фрикадельки с Рисом" data-lang-en="Meatballs with Rice">Klopsiki z Ryżem</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Pulpety Wołowo (3 sztuki), Ryż gotowany, sos pomidorowy, ketchup, zieleń, kolendra, pieprz czarny.)"
+         data-lang-uz="(Mol go'shtidan Kotletlar (3 dona), Pishirilgan guruch, pomidor sousi, ketchup, ko'katlar, koriander, qora murch.)"
+         data-lang-ru="(Говяжьи Фрикадельки (3 штуки), Вареный рис, томатный соус, кетчуп, зелень, кориандр, черный перец.)"
+         data-lang-en="(Beef Meatballs (3 pieces), Cooked rice, tomato sauce, ketchup, greens, coriander, black pepper.)">
+        (Pulpety Wołowo (3 sztuki), Ryż gotowany, sos pomidorowy, ketchup, zieleń, kolendra, pieprz czarny.)
+      </p>
+      <img src="imges/meatball1.jpeg" alt="meatball1" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Papryka faszerowana" data-lang-uz="To'ldirilgan Qalampir" data-lang-ru="Фаршированный Перец" data-lang-en="Stuffed Pepper">Papryka faszerowana</h4>
+        <span class="price">40 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Faszerowana papryka z mięsem mielonym (lub wegetariańska) i sosem pomidorowym)"
+         data-lang-uz="(Qiyma go'sht (yoki vegetarian) va pomidor sousi bilan to'ldirilgan qalampir)"
+         data-lang-ru="(Фаршированный перец с мясным фаршем (или вегетарианский) и томатным соусом)"
+         data-lang-en="(Stuffed pepper with minced meat (or vegetarian) and tomato sauce)">
+        (Faszerowana papryka z mięsem mielonym (lub wegetariańska) i sosem pomidorowym)
+      </p>
+      <img src="imges/balgariskiy.jpeg" alt="balgariskiy" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Tuszona wołowina" data-lang-uz="Dimlangan mol go'shti" data-lang-ru="Тушеная говядина" data-lang-en="Stewed beef">Tuszona wołowina</h4>
+        <span class="price">40 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Wołowina ziemniaki kasza kluski)"
+         data-lang-uz="(Mol go'shti kartoshka grechka xamir)"
+         data-lang-ru="(Говядина картофель гречка клецки)"
+         data-lang-en="(Beef potatoes buckwheat dumplings)">
+        (Wołowina ziemniaki kasza kluski)
+      </p>
+      <img src="imges/tushonka.jpg" alt="tushonka" style="height: 220px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Salads Section -->
+  <div id="salads" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Sałatki" data-lang-uz="Salatlar" data-lang-ru="Салаты" data-lang-en="Salads">Sałatki</span>
+      <span>/ <span class="lang" data-lang-pl="Salads"  data-lang-ru="Салаты" data-lang-en="Salads">Salads</span></span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka Bakłażan" data-lang-uz="Baqlajon Salati" data-lang-ru="Салат из Баклажанов" data-lang-en="Eggplant Salad">Sałatka Bakłażan</h4>
+        <span class="price">30 zł</span>
+      </div>
+      <img src="imges/salat.jpg" alt="chiburek" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka Cezar" data-lang-uz="Sezar Salati" data-lang-ru="Салат Цезарь" data-lang-en="Caesar Salad">Sałatka Cezar</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <img src="imges/Sezar.jpg" alt="Sezar" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka Grecka" data-lang-uz="Grech Salati" data-lang-ru="Греческий Салат" data-lang-en="Greek Salad">Sałatka Grecka</h4>
+        <span class="price">32 zł</span>
+      </div>
+      <img src="imges/grecka.jpg" alt="grecka" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka Bahor" data-lang-uz="Bahor Salati" data-lang-ru="Салат Бахор" data-lang-en="Bahor Salad">Sałatka Bahor</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <img src="imges/salat1.jpg" alt="salad" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka Shakarob" data-lang-uz="Shakarob Salati" data-lang-ru="Салат Шакароб" data-lang-en="Shakarob Salad">Sałatka Shakarob</h4>
+        <span class="price">12 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Pomidor, ogórek, cebula, sól, pieprz, kolendra,bazylia,zieleń)"
+         data-lang-uz="(Pomidor, bodring, piyoz, tuz, murch, koriander,rayhon,ko'katlar)"
+         data-lang-ru="(Помидор, огурец, лук, соль, перец, кориандр,базилик,зелень)"
+         data-lang-en="(Tomato, cucumber, onion, salt, pepper, coriander,basil,greens)">
+        (Pomidor, ogórek, cebula, sól, pieprz, kolendra,bazylia,zieleń)
+      </p>
+      <img src="imges/bahorSalad.jpg" alt="bahorSalad" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka czim czi" data-lang-uz="ChimChi Salati" data-lang-ru="Салат ЧимЧи" data-lang-en="ChimChi Salad">Sałatka ChimChi</h4>
+        <span class="price">12 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(ostra koreańska sałatka/kiszona kapusta)"
+         data-lang-uz="(achchiq koreys salati/nordon karam)"
+         data-lang-ru="(острый корейский салат/квашеная капуста)"
+         data-lang-en="(spicy Korean salad/sauerkraut)">
+        (ostra koreańska sałatka/kiszona kapusta)
+      </p>
+      <img src="imges/chimchi.jpg" alt="chimchi" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sałatka Okroshka" data-lang-uz="Okroshka Salati" data-lang-ru="Салат Окрошка" data-lang-en="Okroshka Salad">Sałatka Okroshka</h4>
+        <span class="price">12 zł</span>
+      </div>
+      <img src="imges/okoroshka.jpg" alt="okoroshka" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+    
+
+  <!-- Sets Section -->
+ <div id="sets" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Zestaw" data-lang-uz="To'plam" data-lang-ru="Набор" data-lang-en="Sets">Zestaw</span>
+      <span>/ <span class="lang" data-lang-pl="Sets"  data-lang-ru="Набор" data-lang-en="Sets">Sets</span></span>
+    </h3>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Zestaw Pilaw" data-lang-uz="Palov to'plami" data-lang-ru="Набор Плов" data-lang-en="Pilaf Set">Zestaw Pilaw</h4>
+        <span class="price">35 zł</span>
+      </div>
+      <p class="description lang" 
+         data-lang-pl="(Danie, Chleb, sałatki)" 
+         data-lang-uz="(Taom, Non, salatlar)" 
+         data-lang-ru="(Блюдо, Хлеб, салаты)" 
+         data-lang-en="(Dish, Bread, salads)">
+        (Danie, Chleb, sałatki)
+      </p>
+      <img src="imges/osh.jpg" alt="osh" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Desserts Section -->
+  <div id="desserts" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Desery" data-lang-uz="Shirinliklar" data-lang-ru="Десерты" data-lang-en="Desserts">Desery</span>
+      <span>/ <span class="lang" data-lang-pl="Desserts"  data-lang-ru="Десерты" data-lang-en="Desserts">Desserts</span></span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sernik" data-lang-uz="Tvorogli Pirog" data-lang-ru="Чизкейк" data-lang-en="Cheesecake">Sernik</h4>
+        <span class="price">20 zł</span>
+      </div>
+      <img src="imges/sernik.jpg" alt="sernik" style="height: 200px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Ciasto Miodowe" data-lang-uz="Asalli Pirog" data-lang-ru="Медовый Торт" data-lang-en="Honey Cake">Ciasto Miodowe</h4>
+        <span class="price">20 zł</span>
+      </div>
+      <img src="imges/honeyCake.jpg" alt="honeyCake" style="height: 200px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Czekoladowy" data-lang-uz="Shokoladli" data-lang-ru="Шоколадный" data-lang-en="Chocolate">Czekoladowy</h4>
+        <span class="price">20 zł</span>
+      </div>
+      <img src="imges/chocolateCake1.jpg" alt="chocolateCake" style="height: 200px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Breakfast Section -->
+  <div id="breakfast" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Śniadanie" data-lang-uz="Nonushta" data-lang-ru="Завтрак" data-lang-en="Breakfast">Śniadanie</span>
+      <span>/ <span class="lang" data-lang-pl="Breakfast"  data-lang-ru="Завтрак" data-lang-en="Breakfast">Breakfast</span></span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Angielskie Śniadanie" data-lang-uz="Ingliz Nonushtasi" data-lang-ru="Английский Завтрак" data-lang-en="English Breakfast">Angielskie Śniadanie</h4>
+        <span class="price">25 zł</span>
+      </div>
+      <img src="imges/angliskiy.jpg" alt="Angielskie" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Czebureki" data-lang-uz="Chiburek" data-lang-ru="Чебурек" data-lang-en="Cheburek">Czebureki</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Delikatne ciasto nadziewane mieloną cielęciną, smażone w głębokim tłuszczu na złoty kolor)"
+         data-lang-uz="(Mayda to'g'ralgan mol go'shti bilan to'ldirilgan nozik xamir, oltin ranggacha chuqur yog'da qovurilgan)"
+         data-lang-ru="(Нежное тесто, фаршированное молотой телятиной, обжаренное во фритюре до золотистого цвета)"
+         data-lang-en="(Delicate dough stuffed with ground veal, deep-fried to a golden color)">
+        (Delikatne ciasto nadziewane mieloną cielęciną, smażone w głębokim tłuszczu na złoty kolor)
+      </p>
+      <img src="imges/ceburek.jpg" alt="chiburek" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Kutab z Serem" data-lang-uz="Pishloqli Qutab" data-lang-ru="Кутаб с Сыром" data-lang-en="Kutab with Cheese">Kutab z Serem</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(mąka pszenna, woda, sól, świeży ser (np. twaróg lub feta), koperek, pietruszka, masło klarowane lub olej)"
+         data-lang-uz="(bug'doy uni, suv, tuz, yangi pishloq (masalan, tvorog yoki feta), ukrop, petrushka, eritilgan sariyog 'yoki yog')"
+         data-lang-ru="(пшеничная мука, вода, соль, свежий сыр (например, творог или фета), укроп, петрушка, топленое масло или масло)"
+         data-lang-en="(wheat flour, water, salt, fresh cheese (e.g. cottage cheese or feta), dill, parsley, clarified butter or oil)">
+        (mąka pszenna, woda, sól, świeży ser (np. twaróg lub feta), koperek, pietruszka, masło klarowane lub olej)
+      </p>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Kutab z Miesem" data-lang-uz="Go'shtli Qutab" data-lang-ru="Кутаб с Мясом" data-lang-en="Kutab with Meat">Kutab z Miesem</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <p class="description lang"
+         data-lang-pl="(Mielona jagnięcina lub wołowina Cebula Kmin rzymski (zira) Papryka słodka/ostra Sól, pieprz Kolendra lub pietruszka (opcjonalnie))"
+         data-lang-uz="(Qiyma qo'zichoq yoki mol go'shti Piyoz Rim ziyra (zira) Shirin/achchiq qalampir Tuz, murch Koriander yoki petrushka (ixtiyoriy))"
+         data-lang-ru="(Фарш из баранины или говядины Лук Римский тмин (зира) Сладкий/острый перец Соль, перец Кориандр или петрушка (по желанию))"
+         data-lang-en="(Ground lamb or beef Onion Roman cumin (zira) Sweet/hot pepper Salt, pepper Coriander or parsley (optional))">
+        (Mielona jagnięcina lub wołowina Cebula Kmin rzymski (zira) Papryka słodka/ostra Sól, pieprz Kolendra lub pietruszka (opcjonalnie))
+      </p>
+    </div>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Omlet" data-lang-uz="Omlet" data-lang-ru="Омлет" data-lang-en="Omelet">Omlet</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/omlet.jpg" alt="omlet" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Smażone jajko (3 kawałki)" data-lang-uz="Qovurilgan tuxum (3 dona)" data-lang-ru="Жареное яйцо (3 штуки)" data-lang-en="Fried egg (3 pieces)">Smażone jajko (3 kawałki)</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/FriedEggs.jpg" alt="egg" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Pieczywo Section -->
+  <div id="bakery" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Pieczywo" data-lang-uz="Non mahsulotlari" data-lang-ru="Хлебобулочные изделия" data-lang-en="Bakery">Pieczywo</span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Chleb" data-lang-uz="Non" data-lang-ru="Хлеб" data-lang-en="Bread">Chleb</h4>
+        <span class="price">5 zł</span>
+      </div>
+      <img src="imges/bread.jpeg" alt="bread" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Fatir" data-lang-uz="Fatir" data-lang-ru="Фатир" data-lang-en="Fatir">Fatir</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/patir.jpeg" alt="patir" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Samsa z Woloving" data-lang-uz="Mol go'shtli Samsa" data-lang-ru="Самса с Говядиной" data-lang-en="Samsa with Beef">Samsa Wolovy</h4>
+        <span class="price">12 zł</span>
+      </div>
+      <img src="imges/somsa.jpg" alt="samsa" style="height: 200px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Samsa z Kurczakiem" data-lang-uz="Tovuqli Samsa" data-lang-ru="Самса с Курицей" data-lang-en="Samsa with Chicken">Samsa Kurczak</h4>
+        <span class="price">10 zł</span>
+      </div>
+      <img src="imges/somsa.jpg" alt="samasa" style="height: 200px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Sides Section -->
+  <div id="sides" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Dodatki" data-lang-uz="Qo'shimchalar" data-lang-ru="Гарниры" data-lang-en="Sides">Dodatki</span>
+      <span>/ <span class="lang" data-lang-pl="Sides"  data-lang-ru="Гарниры" data-lang-en="Sides">Sides</span></span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Ryz" data-lang-uz="Guruch" data-lang-ru="Рис" data-lang-en="Rice">Ryz</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/rice.jpg" alt="rice" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Pure" data-lang-uz="Pyure" data-lang-ru="Пюре" data-lang-en="Mashed Potatoes">Pure</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/pure.jpeg" alt="pure" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Gryka" data-lang-uz="Grechka" data-lang-ru="Гречка" data-lang-en="Buckwheat">Gryka</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/buckwheat.jpg" alt="buckwheat" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Frytki" data-lang-uz="Kartoshka Fri" data-lang-ru="Картофель Фри" data-lang-en="French Fries">Frytki</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/Fries.jpg" alt="frenchFries" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Graten" data-lang-uz="Graten" data-lang-ru="Гратен" data-lang-en="Gratin">Graten</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <p class="description lang" 
+         data-lang-pl="(Zapiekanka (danie zapiekane z chrupiącą wierzchnią warstwą, często z serem lub bułką tartą))"
+         data-lang-uz="(Zapiekanka (ustki qarsildoq qilib pishirilgan taom, ko'pincha pishloq yoki non qirindilari bilan))" 
+         data-lang-ru="(Запеканка (запеченное блюдо с хрустящим верхним слоем, часто с сыром или панировочными сухарями))" 
+         data-lang-en="(Casserole (baked dish with a crispy top layer, often with cheese or breadcrumbs))">
+        (Zapiekanka" (danie zapiekane z chrupiącą wierzchnią warstwą, często z serem lub bułką tartą))
+      </p>
+      <img src="imges/gratin.jpeg" alt="gratin" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Qazi" data-lang-uz="Qazi" data-lang-ru="Казы" data-lang-en="Qazi">Qazi</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <p class="description lang" 
+         data-lang-pl="(końska kiełbasa)" 
+         data-lang-uz="(ot go'shtidan tayyorlangan kolbasa)" 
+         data-lang-ru="(колбаса из конины)" 
+         data-lang-en="(horse meat sausage)">
+        (końska kiełbasa)
+      </p>
+      <img src="imges/kazi.jpg" alt="qazi" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sosy" data-lang-uz="Souslar" data-lang-ru="Соусы" data-lang-en="Sauces">Sosy</h4>
+        <span class="price">3 zł</span>
+      </div>
+      <img src="imges/souce.jpeg" alt="souce" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Pieprz" data-lang-uz="Qalampir" data-lang-ru="Перец" data-lang-en="Pepper">Pieprz</h4>
+        <span class="price">1 zł</span>
+      </div>
+      <img src="imges/Pepper.jpeg" alt="pepper" style="height: 180px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Coffee Section -->
+  <div id="drinks" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Kawa" data-lang-uz="Qahva" data-lang-ru="Кофе" data-lang-en="Coffee">Kawa</span>
+      <span>/ <span class="lang" data-lang-pl="Coffee"  data-lang-ru="Кофе" data-lang-en="Coffee">Coffee</span></span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Espresso/Macchiato" data-lang-uz="Espresso/Macchiato" data-lang-ru="Эспрессо/Макиато" data-lang-en="Espresso/Macchiato">Espresso/Macchiato</h4>
+        <span class="price">9 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Doppio" data-lang-uz="Doppio" data-lang-ru="Доппио" data-lang-en="Doppio">Doppio</h4>
+        <span class="price">11 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Cappuccino" data-lang-uz="Cappuccino" data-lang-ru="Капучино" data-lang-en="Cappuccino">Cappuccino</h4>
+        <span class="price">14 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Latte" data-lang-uz="Latte" data-lang-ru="Латте" data-lang-en="Latte">Latte</h4>
+        <span class="price">14 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Flat White" data-lang-uz="Flat White" data-lang-ru="Флэт Уайт" data-lang-en="Flat White">Flat White</h4>
+        <span class="price">16 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Cortado" data-lang-uz="Cortado" data-lang-ru="Кортадо" data-lang-en="Cortado">Cortado</h4>
+        <span class="price">12 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Americano" data-lang-uz="Americano" data-lang-ru="Американо" data-lang-en="Americano">Americano</h4>
+        <span class="price">13 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Bombon" data-lang-uz="Bombon" data-lang-ru="Бомбон" data-lang-en="Bombon">Bombon</h4>
+        <span class="price">12 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Ice Latte" data-lang-uz="Muzli Latte" data-lang-ru="Айс Латте" data-lang-en="Ice Latte">Ice Latte</h4>
+        <span class="price">17 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Ice Americano" data-lang-uz="Muzli Americano" data-lang-ru="Айс Американо" data-lang-en="Ice Americano">Ice Americano</h4>
+        <span class="price">17 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Ice Tonic espresso" data-lang-uz="Muzli Tonikli Espresso" data-lang-ru="Айс Тоник Эспрессо" data-lang-en="Ice Tonic Espresso">Ice Tonic espresso</h4>
+        <span class="price">16 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Romana" data-lang-uz="Romana" data-lang-ru="Романа" data-lang-en="Romana">Romana</h4>
+        <span class="price">16 zł</span>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Syropy" data-lang-uz="Sirop" data-lang-ru="Сиропы" data-lang-en="Syrups">Syropy</h4>
+        <span class="price">2 zł</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lemonades Section -->
+  <div id="lemonades" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Lemoniady" data-lang-uz="Limonadlar" data-lang-ru="Лимонады" data-lang-en="Lemonades">Lemoniady</span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Klasyczna" data-lang-uz="Klassik" data-lang-ru="Классический" data-lang-en="Classic">Klasyczna</h4>
+        <span class="price">18 zł</span>
+      </div>
+      <img src="imges/lemonade.jpg" alt="lemonade" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Truskawkowa" data-lang-uz="Qulupnayli" data-lang-ru="Клубничный" data-lang-en="Strawberry">Truskawkowa</h4>
+        <span class="price">18 zł</span>
+      </div>
+      <img src="imges/Strawberry.jpg" alt="Strawberry" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Wisniowa" data-lang-uz="Gilosli" data-lang-ru="Вишневый" data-lang-en="Cherry">Wisniowa</h4>
+        <span class="price">18 zł</span>
+      </div>
+      <img src="imges/cherry.jpg" alt="cherry" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Rozmaryn-Grejpfrut" data-lang-uz="Rozmarin-Greyfurt" data-lang-ru="Розмарин-Грейпфрут" data-lang-en="Rosemary-Grapefruit">Rozmaryn-Grejpfrut</h4>
+        <span class="price">18 zł</span>
+      </div>
+      <img src="imges/Grapefruit.jpg" alt="Grapefruit" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Aloe-ogorek" data-lang-uz="Aloe-Bodring" data-lang-ru="Алоэ-Огурец" data-lang-en="Aloe-Cucumber">Aloe-ogorek</h4>
+        <span class="price">18 zł</span>
+      </div>
+      <img src="imges/Aloe.jpg" alt="Aloe" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Ice tea domowe" data-lang-uz="Uy muzli choyi" data-lang-ru="Домашний холодный чай" data-lang-en="Homemade ice tea">Ice tea domowe</h4>
+        <span class="price">20 zł</span>
+      </div>
+      <img src="imges/iceTea.jpg" alt="IceTea" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Cocktails Section -->
+  <div id="cocktails" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Koktajle" data-lang-uz="Kokteyllar" data-lang-ru="Коктейли" data-lang-en="Cocktails">Koktajle</span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Hugo" data-lang-uz="Hugo" data-lang-ru="Хуго" data-lang-en="Hugo">Hugo</h4>
+        <span class="price">25 zł</span>
+      </div>
+      <img src="imges/hugo.jpg" alt="chocolateCake" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Aperol" data-lang-uz="Aperol" data-lang-ru="Апероль" data-lang-en="Aperol">Aperol</h4>
+        <span class="price">25 zł</span>
+      </div>
+      <img src="imges/Aperol.jpg" alt="chocolateCake" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Mojito" data-lang-uz="Mojito" data-lang-ru="Мохито" data-lang-en="Mojito">Mojito</h4>
+        <span class="price">27 zł</span>
+      </div>
+      <img src="imges/moxito.jpg" alt="chocolateCake" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Pina Colada" data-lang-uz="Pina Colada" data-lang-ru="Пина Колада" data-lang-en="Pina Colada">Pina Colada</h4>
+        <span class="price">20 zł</span>
+      </div>
+      <img src="imges/pinColada.jpg" alt="chocolateCake" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Mimosa" data-lang-uz="Mimoza" data-lang-ru="Мимоза" data-lang-en="Mimosa">Mimosa</h4>
+        <span class="price">20 zł</span>
+      </div>
+      <img src="imges/Mimosa.jpg" alt="chocolateCake" style="height: 300px; width: 250px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Drinks Section -->
+  <div id="beverages" class="menu-category">
+    <h3 class="category-title">
+      <span class="lang" data-lang-pl="Napoje" data-lang-uz="Ichimliklar" data-lang-ru="Напитки" data-lang-en="Drinks">Napoje</span>
+    </h3>
+    
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Herbata Czarna/Zielona" data-lang-uz="Qora/Yashil Choy" data-lang-ru="Черный/Зеленый Чай" data-lang-en="Black/Green Tea">Herbata Czarna/Zielona</h4>
+        <span class="price">5 zł</span>
+      </div>
+      <img src="imges/greenTea.jpg" alt="herbata" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Herbata cytryna" data-lang-uz="Limonli Choy" data-lang-ru="Чай с Лимоном" data-lang-en="Tea with Lemon">Herbata cytryna</h4>
+        <span class="price">15 zł</span>
+      </div>
+      <img src="imges/lemonTea.jpg" alt="herbata" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Woda Niegazowana Kinga 300/330ml" data-lang-uz="Gazlanmagan Kinga Suv 300/330m" data-lang-ru="Kinga Негазированная Вода 300/330м" data-lang-en="Kinga Still Water 300/330m">Woda Gazowana/Niegazowana 300/330m</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/kinga.jpg" alt="kinga" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Woda Gazowana/Niegazowana 700ml" data-lang-uz="Gazlangan/Gazlanmagan Suv 700ml" data-lang-ru="Газированная/Негазированная Вода 700мл" data-lang-en="Sparkling/Still Water 700ml">Woda Gazowana/Niegazowana 700ml</h4>
+        <span class="price">10 zł</span>
+      </div>
+      <img src="imges/cisowanka.jpg" alt="cisowanka" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Natakhtari" data-lang-uz="Natakhtari" data-lang-ru="Натахтари" data-lang-en="Natakhtari">Natakhtari</h4>
+        <span class="price">12 zł</span>
+      </div>
+      <img src="imges/natkhar.jpg" alt="natkhar" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Coca-Cola 330ml" data-lang-uz="Coca-Cola 330ml" data-lang-ru="Пепси 330мл" data-lang-en="Coca-Cola 330ml">Coca-Cola 330ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/coca-cola.jpg" alt="coca-cola" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Red Bull 330ml" data-lang-uz="Red Bull 330ml" data-lang-ru="Ред Булл 330мл" data-lang-en="Red Bull 330ml">Red Bull 330ml</h4>
+        <span class="price">10 zł</span>
+      </div>
+      <img src="imges/redbull.jpg" alt="redbull" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Coca-Cola 200ml" data-lang-uz="Coca-Cola 200ml" data-lang-ru="Кока-Кола 200мл" data-lang-en="Coca-Cola 200ml">Coca-Cola 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/cola-orginal.jpg" alt="cola-orginal" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Coca-Cola Zero 200ml" data-lang-uz="Coca-Cola Zero 200ml" data-lang-ru="Кока-Кола Zero 200мл" data-lang-en="Coca-Cola Zero 200ml">Coca-Cola 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/coca.jpg" alt="cola-orginal" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Fanta 200ml" data-lang-uz="Fanta 200ml" data-lang-ru="Фанта 200мл" data-lang-en="Fanta 200ml">Fanta 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/fanta.jpg" alt="fanta" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Sprite 200ml" data-lang-uz="Sprite 200ml" data-lang-ru="Спрайт 200ml" data-lang-en="Sprite 200ml">Sprite 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/sprite.jpg" alt="sprite" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="7up 200ml" data-lang-uz="7up 200ml" data-lang-ru="7up 200мл" data-lang-en="7up 200ml">7up 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/pepsi-mirinda-7up.jpg" alt="7up" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Mirinda 200ml" data-lang-uz="Mirinda 200ml" data-lang-ru="Миринда 200мл" data-lang-en="Mirinda 200ml">Mirinda 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/pepsi-mirinda-7up.jpg" alt="mirinda" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Pepsi 200ml" data-lang-uz="Pepsi 200ml" data-lang-ru="Pepsi 200мл" data-lang-en="Pepsi 200ml">Pepsi 200ml</h4>
+        <span class="price">7 zł</span>
+      </div>
+      <img src="imges/pepsi-mirinda-7up.jpg" alt="Pepsi" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+
+    <div class="menu-item">
+      <div class="item-header">
+        <h4 class="lang" data-lang-pl="Borjomi 330ml" data-lang-uz="Borjomi 330ml" data-lang-ru="Боржоми 330мл" data-lang-en="Borjomi 330ml">Borjomi 330ml</h4>
+        <span class="price">8 zł</span>
+      </div>
+      <img src="imges/borjomi.jpg" alt="borjomi" style="height: 250px; width: 300px;border-radius: 10px; margin-top: 10px;">
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2
+            class="lang"
+            data-lang-pl="O nas"
+            data-lang-uz="Biz haqimizda"
+            data-lang-ru="О нас"
+            data-lang-en="About Us"
+          >
+            O nas
+          </h2>
+          <p
+            class="lang"
+            data-lang-pl="Nasza historia i tradycja"
+            data-lang-uz="Bizning tarix va an'analarimiz"
+            data-lang-ru="Наша история и традиции"
+            data-lang-en="Our story and tradition"
+          >
+            Nasza historia i tradycja
+          </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <img
+              src="imges/shafran.jpg"
+              alt="SHAFRAN Restaurant"
+            />
+            <img
+              src="imges/resturant.jpg"
+              alt="SHAFRAN Restaurant"
+            />
+          </div>
+
+          <div class="about-text">
+            <h3
+              class="lang"
+              data-lang-pl="Tradycyjna Kuchnia z Nowoczesnym Akcentem"
+              data-lang-uz="Zamonaviy uslubdagi an'anaviy oshxona"
+              data-lang-ru="Традиционная кухня с современным акцентом"
+              data-lang-en="Traditional Cuisine with Modern Touch"
+            >
+              Tradycyjna Kuchnia z Nowoczesnym Akcentem
+            </h3>
+
+            <p
+              class="lang"
+              data-lang-pl="Restauracja SHAFRAN przynosi na Twój stół autentyczne smaki tradycyjnej kuchni. Nasze przepisy były przekazywane z pokolenia na pokolenie, zachowując bogate dziedzictwo kulinarne, jednocześnie dodając nasz własny nowoczesny akcent."
+              data-lang-uz="SHAFRAN restorani an'anaviy oshxonaning haqiqiy ta'mini dasturxoningizga olib keladi. Bizning retseptlarimiz avloddan-avlodga o'tib kelgan, boy oshpazlik merosini saqlab qolgan holda, o'zimizning zamonaviy uslubimizni qo'shamiz."
+              data-lang-ru="Ресторан ШАФРАН приносит к вашему столу аутентичные вкусы традиционной кухни. Наши рецепты передавались из поколения в поколение, сохраняя богатое кулинарное наследие, одновременно добавляя наш собственный современный акцент."
+              data-lang-en="SHAFRAN Restaurant brings the authentic flavors of traditional cuisine to your table. Our recipes have been passed down through generations, preserving the rich culinary heritage while adding our own modern twist."
+            >
+              Restauracja SHAFRAN przynosi na Twój stół autentyczne smaki
+              tradycyjnej kuchni. Nasze przepisy były przekazywane z pokolenia
+              na pokolenie, zachowując bogate dziedzictwo kulinarne,
+              jednocześnie dodając nasz własny nowoczesny akcent.
+            </p>
+
+            <p
+              class="lang"
+              data-lang-pl="Nasi szefowie kuchni używają tylko najlepszych składników, starannie wyselekcjonowanych, aby zapewnić najwyższą jakość i smak w każdym serwowanym przez nas daniu. Jesteśmy dumni z tworzenia ciepłej i przyjaznej atmosfery, w której nasi goście mogą cieszyć się wyjątkowym jedzeniem i niezapomnianymi doświadczeniami kulinarnymi."
+              data-lang-uz="Oshpazlarimiz har bir taomda eng yuqori sifat va ta'mni ta'minlash uchun ehtiyotkorlik bilan tanlangan eng yaxshi ingredientlardan foydalanadilar. Biz mehmonlarimiz ajoyib taom va unutilmas ovqatlanish tajribasidan bahramand bo'lishi mumkin bo'lgan iliq va mehmon do'st muhit yaratishdan faxrlanamiz."
+              data-lang-ru="Наши повара используют только лучшие ингредиенты, тщательно отобранные для обеспечения высочайшего качества и вкуса в каждом блюде, которое мы подаем. Мы гордимся созданием теплой и гостеприимной атмосферы, где наши гости могут наслаждаться исключительной едой и незабываемыми кулинарными впечатлениями."
+              data-lang-en="Our chefs use only the finest ingredients, carefully selected to ensure the highest quality and taste in every dish we serve. We take pride in creating a warm and welcoming atmosphere where our guests can enjoy exceptional food and memorable dining experiences."
+            >
+              Nasi szefowie kuchni używają tylko najlepszych składników,
+              starannie wyselekcjonowanych, aby zapewnić najwyższą jakość i smak
+              w każdym serwowanym przez nas daniu. Jesteśmy dumni z tworzenia
+              ciepłej i przyjaznej atmosfery, w której nasi goście mogą cieszyć
+              się wyjątkowym jedzeniem i niezapomnianymi doświadczeniami
+              kulinarnymi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2
+            class="lang"
+            data-lang-pl="Kontakt"
+            data-lang-uz="Aloqa"
+            data-lang-ru="Контакты"
+            data-lang-en="Contact Us"
+          >
+            Kontakt
+          </h2>
+          <p
+            class="lang"
+            data-lang-pl="Odwiedź nas lub skontaktuj się"
+            data-lang-uz="Bizga tashrif buyuring yoki bog'laning"
+            data-lang-ru="Посетите нас или свяжитесь с нами"
+            data-lang-en="Visit us or get in touch"
+          >
+            Odwiedź nas lub skontaktuj się
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4
+                  class="lang"
+                  data-lang-pl="Adres"
+                  data-lang-uz="Manzil"
+                  data-lang-ru="Адрес"
+                  data-lang-en="Address"
+                >
+                  Address
+                </h4>
+                <p>al. Jana Pawła II 61/228<br />00-001 Warszawa, Poland</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4
+                  class="lang"
+                  data-lang-pl="Godziny otwarcia"
+                  data-lang-uz="Ish vaqti"
+                  data-lang-ru="Часы работы"
+                  data-lang-en="Opening Hours"
+                >
+                  Godziny otwarcia
+                </h4>
+                <p
+                  class="lang"
+                  data-lang-pl="Poniedziałek - Piątek: 08:00 - 23:00 Sobota - Niedziela: 08:00 - 23:00"
+                  data-lang-uz="Dushanba - Juma: 08:00 - 23:00 Shanba - Yakshanba: 08:00 - 23:00"
+                  data-lang-ru="Понедельник - Пятница: 08:00 - 23:00 Суббота - Воскресенье: 08:00 - 23:00"
+                  data-lang-en="Monday - Friday: 08:00 - 23:00 Saturday - Sunday: 08:00 - 23:00"
+                >
+                  Poniedziałek - Piątek: 08:00 - 23:00 
+                  <br />
+                  Sobota - Niedziela: 08:00 - 23:00
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4
+                  class="lang"
+                  data-lang-pl="Telefon"
+                  data-lang-uz="Telefon"
+                  data-lang-ru="Телефон"
+                  data-lang-en="Phone"
+                >
+                  Telefon
+                </h4>
+                <p>+48515743707</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.7712809867608!2d20.983154189280505!3d52.24753789977201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd8373eb171d%3A0xc3274f176b5a4e6e!2sRestauracja%20SZAFRAN!5e0!3m2!1sen!2s!4v1746257896892!5m2!1sen!2s"
+             width="650" height="350" style="border:0;"
+              allowfullscreen="" loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>SHAFRAN</h2>
+            <p
+              class="lang"
+              data-lang-pl="RESTAURACJA"
+              data-lang-uz="RESTORAN"
+              data-lang-ru="РЕСТОРАН"
+              data-lang-en="RESTAURANT"
+            >
+              RESTAURACJA
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h3
+              class="lang"
+              data-lang-pl="Szybkie Linki"
+              data-lang-uz="Tezkor Havolalar"
+              data-lang-ru="Быстрые Ссылки"
+              data-lang-en="Quick Links"
+            >
+              Szybkie Linki
+            </h3>
+            <ul>
+              <li>
+                <a
+                  href="#home"
+                  class="lang"
+                  data-lang-pl="Strona główna"
+                  data-lang-uz="Bosh sahifa"
+                  data-lang-ru="Главная"
+                  data-lang-en="Home"
+                  >Strona główna</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#menu"
+                  class="lang"
+                  data-lang-pl="Menu"
+                  data-lang-uz="Menyu"
+                  data-lang-ru="Меню"
+                  data-lang-en="Menu"
+                  >Menu</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="lang"
+                  data-lang-pl="O nas"
+                  data-lang-uz="Biz haqimizda"
+                  data-lang-ru="О нас"
+                  data-lang-en="About Us"
+                  >O nas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="lang"
+                  data-lang-pl="Kontakt"
+                  data-lang-uz="Aloqa"
+                  data-lang-ru="Контакты"
+                  data-lang-en="Contact"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h3
+              class="lang"
+              data-lang-pl="Śledź nas"
+              data-lang-uz="Bizni kuzating"
+              data-lang-ru="Следите за нами"
+              data-lang-en="Follow Us"
+            >
+              Śledź nas
+            </h3>
+            <div class="social-icons">
+              <a href="https://t.me/Shafran_restauracja_uzbecka"  title="telegram icons"><img src="imges/telegram.png" width="20px" height="20px"></img></a>
+              <a href="https://www.instagram.com/shafran_restauracja_warsaw?igsh=MWRycnd1ZjIzZmph"  title="instagram icons"><img src="imges/instagram.png" width="20px" height="20px"></img></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p
+            class="lang"
+            data-lang-pl="&copy; 2025 SHAFRAN Restauracja. Wszelkie prawa zastrzeżone."
+            data-lang-uz="&copy; 2025 SHAFRAN Restoran. Barcha huquqlar himoyalangan."
+            data-lang-ru="&copy; 2025 Ресторан ШАФРАН. Все права защищены."
+            data-lang-en="&copy; 2025 SHAFRAN Restaurant. All Rights Reserved."
+          >
+            &copy; 2025 SHAFRAN Restauracja. Wszelkie prawa zastrzeżone.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
